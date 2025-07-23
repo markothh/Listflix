@@ -1,0 +1,59 @@
+.list-content {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* Левая часть 1/5, правая 4/5 */
+    gap: 20px;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Разделение между компонентами */
+  }
+  
+  .tag-component {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status-component {
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }  
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-start; /* Размещает кнопки слева */
+    gap: 10px; /* Отступ между кнопками */
+    position: relative;
+  }
+  

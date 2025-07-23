@@ -1,0 +1,29 @@
+/* Checkbox.css */
+
+/* Стиль для чекбокса */
+.checkbox {
+    width: 22px;  /* Увеличиваем размер чекбокса */
+    height: 22px;  /* Увеличиваем размер чекбокса */
+    margin-right: 10px;  /* Отступ от текста */
+    cursor: pointer;
+    border-radius: 4px;  /* Скругленные углы */
+    background-color: #fff;  /* Цвет фона по умолчанию */
+    border: 2px solid #ccc;  /* Светлый бордер */
+    transition: all 0.3s ease;  /* Плавный переход при изменении */
+  }
+  
+  /* Стиль для чекбокса в состоянии выбора (выбран) */
+  .checkbox.selected {
+    background-color: #4CAF50;  /* Цвет фона, когда выбран */
+  }
+  
+  /* Стиль для текста чекбокса */
+  .checkbox-label {
+    font-size: 16px;  /* Размер шрифта */
+    color: #333;  /* Цвет текста */
+    font-weight: 500;  /* Толщина шрифта */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  

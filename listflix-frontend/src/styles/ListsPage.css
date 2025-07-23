@@ -1,0 +1,27 @@
+.lists-page {
+    padding: 20px;
+    position: relative; /* Создаем контекст для абсолютного позиционирования */
+  }
+  
+  .lists-page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Элементы растягиваются по сторонам */
+    margin-bottom: 20px;
+  }
+
+  .search-component {
+    width: 400px; /* Фиксированная ширина для компонента поиска */
+    margin-bottom: 10px; /* Немного отступа снизу, если потребуется */
+  }
+
+  .add-button {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+  }
+  
+  .lists-page-content {
+    margin-top: 50px;
+  }
+  
